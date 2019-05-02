@@ -712,7 +712,7 @@ else:
         cmd = 'sha1sum Source.py | grep .... | cut -c 1-40'
         oldversion_hash = subprocess.check_output(cmd, shell=True)
         oldversion_hash = oldversion_hash.strip()
-        os.system('wget -N https://raw.githubusercontent.com/skavngr/Source/master/Source.py -O Source.py > /dev/null 2>&1')
+        os.system('wget -N https://raw.githubusercontent.com/ScorchingShade/Vulnerous-web/master/Source.py -O Source.py > /dev/null 2>&1')
         newversion_hash = subprocess.check_output(cmd, shell=True)
         newversion_hash = newversion_hash.strip()
         if oldversion_hash == newversion_hash :
