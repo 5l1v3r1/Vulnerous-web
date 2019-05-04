@@ -39,8 +39,8 @@ Vulnerous-web consists of the following suites :-
 - **Dnsmap**
 
 ## Vulnerous-web
-![alt text](https://github.com/ScorchingShade/Vulnerous/blob/master/ss1.png)
-![alt text](https://github.com/ScorchingShade/Vulnerous/blob/master/ss2.png)
+![alt text](https://github.com/ScorchingShade/Vulnerous-web/blob/master/ss1.png)
+![alt text](https://github.com/ScorchingShade/Vulnerous-web/blob/master/ss2.png)
 
 ## Getting Started
 > The best thing about vulnerous-web is its simplicity and ease of use. You don't have to understand a lot of tools and networking to generate reports! Vulnerous-web completes 80 security checks with all 22 tools to give you a comprehensive vulnerability report. 
