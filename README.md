@@ -49,32 +49,40 @@ The Vulnerous source code is written in Python3. It easy enough to understand an
 
 A snippet of the script is shown below:
 ```python3
-elapsed = scan_stop - scan_start`
+elapsed = scan_stop - scan_start
 ```
 ### Prerequisites
-- **Kali Linux** --> Easily download Kali iso using the official website. [Kali](https://nmap.org/download.html)<br />
-or using the commandline utility on debian systems
-```terminal
-sudo apt-get install N-MAP
-```
-- **Command Line Calculator** --> Download the 'bc' calculator using following commands.
-```terminal
-sudo apt-get install bc
-```
-- **Linux OS** - Kali linux is preferred.
+- **Kali Linux** --> Easily download Kali iso using the official website. [Kali](https://www.kali.org/downloads/)<br />
 
-### Using Vulnerous
-- To start Vulnerous, clone the repository and install any prerequisite package.
-- Make the script executable by typing following as root in terminal :
+- **Python3** --> Download python on kali as 
 ```terminal
-chmod u+x killer.sh
+sudo apt-get install python3
 ```
+
+### Using Vulnerous-web
+- To start Vulnerous, clone the repository and install any prerequisite package.
+
 - Execute the script using the following command :
 ```terminal
-./killer.sh
+python3 Source.py
+```
+
+- The following way triggers help info :
+```terminal
+python3 Source.py --help
+```
+
+- You can update to the latest version using :
+```terminal
+python3 Source.py --update
+```
+
+- To begin scanning any url :
+```terminal
+python3 Source.py <url-name>
 ```
 ## Contributing
-Vulnerous is still in development and to contribute to this awesome software please contact the author.
+Vulnerous-web is still in development and to contribute to this awesome software please contact the author.
 ## Author
 ### [Ankush Sharma](https://scorchingshade.github.io/) 
 - [LinkedIn](https://linkedin.com/in/ankush-sharma-a9b24a37/)
@@ -102,5 +110,5 @@ along with this program.
 ```
 ## Acknowledgments
 - Shout out to Offensive Security for their awesome blogs and documentation.
-- Respect for nachoparker for his amazing tutorial on creating a cool progress bar
+- Respect for skavngr for providing a base of development.
 
